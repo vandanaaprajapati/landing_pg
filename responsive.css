@@ -1,0 +1,129 @@
+@media(width<=600px){
+    .card-item{
+      margin:30px;
+      width:100%;
+          padding:20px;
+    }
+    .contect-section{
+      flex-direction: column;
+      align-items: center;
+      padding:0 30px;
+background-color: black;
+color:white
+    }
+    .inner1{
+      width:100%;
+      padding:0;
+    }
+  
+    .about-item p {
+      font-size: 17px;
+      padding-bottom: 18px;
+  }
+  .quote-item h2{
+    font-size: 17px;
+  }
+  .footer{
+    flex-direction: column;
+  }
+}
+@media(width<=900px){
+    .nav h1{
+        font-size:28px;
+        text-align: center;
+    }
+    .nav .logo {
+        float: left;
+        padding-left: 30px;
+    }
+    .nav ul{
+      width: 100%;
+        top:-700px;
+        background-color: rgb(226, 242, 242);
+        padding-left:50px;
+        transition: all 1s ;
+    }
+    .nav ul li{
+      text-align: center;
+    }
+    #check:checked~ul{
+        display:block;
+        top:-8px;
+        
+    }
+    .nav label{
+        display:block;
+        float:right;
+        line-height:70px;
+        margin-right:30px;
+        font-size:30px;
+        cursor: pointer;
+    }
+    .nav ul li{
+        width:100%;
+        
+        padding: 0px 10px;
+        
+    }
+    /* header */
+    .header-item{
+        padding:80px 30px;
+    }
+    .header-item p {
+        font-size: 18px;
+        width:80%;
+        padding-bottom: 25px;
+      }
+      .btn{
+        width:100px;
+        padding:10px 0px;
+        font-size:12px;
+      }
+       /* about-section */
+  .about-section{
+    display:flex;
+    flex-direction: column;
+    padding:50px 30px;
+  }
+  .about-item{
+    padding:0 20px;
+  }
+  /* quote section */
+  .quote-item{
+    width:100%;
+    font-size:16px;
+  }
+  /* card-section */
+
+.card-item{
+margin-right:30px;
+padding:10px;
+}
+
+}
+
+@media(width<=1171px){
+    .nav ul{
+        padding-right:30px;
+    }
+    .nav .logo{
+        padding-left:30px;
+    }
+    h1 {
+        font-size:30px;
+      }
+      .card-item{
+        margin-right:30px;
+        padding:10px;
+        }
+        .contect-section{
+          flex-direction: column;
+          align-items: center;
+          padding:0 30px;
+    background-color: black;
+    color:white
+        }
+        .inner1 p{
+          width:80%;
+        }
+}
